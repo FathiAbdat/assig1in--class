@@ -1,0 +1,39 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .gallery-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: coral;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 10px;
+
+  }
+  
+  .gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
